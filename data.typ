@@ -51,14 +51,14 @@
 #let self = [
   I am a Software Engineering student in the Integrated Circuits track at Fudan University, with an interdisciplinary focus that connects computer science, hardware systems, and applied ML. I like to learn by building: from low-level systems and hardware-adjacent tools to high-performance software and physics-based simulations, and I am especially interested in how software, chips, and ML models come together to solve real-world problems efficiently. Recently, I have been involved in undergraduate research, competition teams, and industry-oriented projects around computer systems, hardware acceleration, and ML-driven tools, as well as mentoring peers and helping organize technical activities.
 
-  Before coming to Fudan, I received an offer to study in the Mathematical and Physical Sciences program in the Faculty of Arts & Science at the University of Toronto (St. George campus), which affirmed my academic preparation in mathematics, physics, and computing. However, I ultimately chose to study in China—and specifically at Fudan—because I believe the most dynamic opportunities in technology and engineering are emerging here, and because returning to learn the language and culture is deeply important to me as a Canadian with Chinese roots. Fudan’s environment, combining strong fundamentals with hands-on, industry-facing projects, gives me the chance to grow both technically and culturally; my long-term goal is to become someone who can meaningfully contribute to the advancement of technology in China and help bridge perspectives between China and the broader global tech community.
+  Before coming to Fudan, I received an offer to study in the Mathematical and Physical Sciences program in the Faculty of Arts & Science at the University of Toronto (St. George campus), which affirmed my academic preparation in mathematics, physics, and computing. I decided to study in China—and specifically at Fudan—because I want to reconnect with the language and culture and work in a tech ecosystem that is fast-moving and hands-on. My goal is to grow into an engineer who can contribute to projects in China while staying connected with the global tech community.
 
   Outside of academics, I enjoy violin, photography, and hardware/IoT tinkering, as well as building side projects in full-stack development and exploring new tools and programming languages. These hobbies keep me curious, creative, and comfortable working across both the abstract and the practical sides of engineering.
 ]
 #let selfzh = [
   我是复旦大学软件工程（集成电路方向）在读学生，关注计算机科学、硬件系统与机器学习等交叉领域，习惯通过“做项目”来学习：从底层系统与硬件相关工具，到高性能软件与物理仿真引擎，都喜欢亲手搭建与优化。最近，我主要参与与计算机系统、硬件加速和 ML 工具相关的科研、竞赛和工程实践项目，同时也负责部分教学与技术活动的组织与辅导。
 
-  在来到复旦之前，我曾获得多伦多大学圣乔治校区文理学院 “Mathematical and Physical Sciences” 项目的录取，这也从侧面证明了我在数学、物理和计算方向的准备。然而，我最终选择到中国、并且选择复旦求学，是因为我认为当前科技与工程领域最具活力的机会正在这里；作为一名在加拿大长大的华人，回到中国深入学习语言和文化，对我来说同样非常重要。复旦兼具扎实的理论基础与面向产业实践的培养环境，为我提供了技术能力与文化理解同步成长的平台。我希望未来能在中国科技发展中发挥自己的价值，同时也在中外科技交流中起到桥梁作用。
+  在来到复旦之前，我曾获得多伦多大学圣乔治校区文理学院 “Mathematical and Physical Sciences” 项目的录取，这也从侧面证明了我在数学、物理和计算方向的准备。但我最终选择到中国、并且选择复旦，是希望在快速发展的技术环境中动手做事，同时重新连接语言与文化。我的目标是成长为能为国内项目做出贡献、又与全球技术社群保持紧密联系的工程师。
 
   课业之外，我热爱小提琴、摄影以及硬件 / 物联网折腾，也会利用空闲时间做一些全栈开发和个人小项目，尝试新的工具与编程语言。这些兴趣让我保持好奇与创造力，也让我在工程实践中能自如地在抽象理论与具体实现之间切换。
 ]
