@@ -17,6 +17,8 @@
   tech,
   leftsection[ Project \ Experience ],
   projectexperience,
+  leftsection(worktitle),
+  work,
   leftsection(achievementtitle),
   achievements,
   leftsection(softwarecopyrighttitle),
@@ -30,8 +32,25 @@
 #if include_softwarecopyright_attachment [
   #pagebreak()
   #heading(level: 1)[Software Copyright Attachment]
-  #image(
-    softwarecopyright_attachment,
-    width: 100%,
-  )
+  #let first_attachment = true
+  #for pdf in softwarecopyright_attachment [
+    #if not first_attachment [
+      #pagebreak()
+    ]
+    #image(pdf, width: 100%)
+    #let first_attachment = false
+  ]
+]
+
+#if include_uoft_admission_attachment [
+  #pagebreak()
+  #heading(level: 1)[UofT Admission Letter]
+  #let first_uoft_attachment = true
+  #for pdf in uoft_admission_attachment [
+    #if not first_uoft_attachment [
+      #pagebreak()
+    ]
+    #image(pdf, width: 100%, height: 90%, fit: "contain")
+    #let first_uoft_attachment = false
+  ]
 ]
