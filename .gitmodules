@@ -1,0 +1,3 @@
+[submodule "references/typst-cv-miku"]
+	path = references/typst-cv-miku
+	url = https://github.com/ice-kylin/typst-cv-miku.git
