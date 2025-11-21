@@ -1,0 +1,22 @@
+# Ignore compiled output files
+*.o
+*.obj
+*.class
+
+# Ignore log and temporary files
+*.log
+*.tmp
+/tmp
+
+# Ignore build directories
+/build
+/dist
+/target
+
+# Ignore OS-specific hidden files (e.g., macOS and Windows)
+.DS_Store
+Thumbs.db
+
+# Ignore dependency caches (common examples)
+/node_modules
+/vendor

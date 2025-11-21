@@ -1,3 +1,6 @@
 [submodule "references/typst-cv-miku"]
 	path = references/typst-cv-miku
 	url = https://github.com/ice-kylin/typst-cv-miku.git
+[submodule "fonts/segoe-ui-emoji"]
+	path = fonts/segoe-ui-emoji
+	url = https://github.com/popemkt/segoe-ui-emoji.git

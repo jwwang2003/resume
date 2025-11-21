@@ -34,7 +34,7 @@
   home: home,
   github: github,
   linkin: linkin,
-  wechat: wechat
+  wechat: wechat,
 )
 #let authorzh = (
   name: namezh,
@@ -43,8 +43,15 @@
   home: home,
   github: github,
   linkin: linkin,
-  wechat: wechat
+  wechat: wechat,
 )
+
+#let include_self_intro = false
+#let include_self_intro_zh = false
+
+#let include_uoft_admission_attachment = true
+
+#let include_softwarecopyright_attachment = true
 
 #let selftitle = [ Self Introduction ]
 #let selftitlezh = [ 自我总结 ]
@@ -77,7 +84,7 @@
     ],
     align(right)[
       2022 - _present_
-    ]
+    ],
   )
 
   #datedsubsection(
@@ -89,7 +96,7 @@
     ],
     align(right)[
       2021 - 2022
-    ]
+    ],
   )
 
   #datedsubsection(
@@ -99,9 +106,9 @@
     ],
     align(right)[
       2018 - 2021
-    ]
+    ],
   )
-  
+
   - Tiger Sun Memorial Computer Science Scholarship
     - Exceptional computer science student & entering university to study computer-related courses
   - 2020/21 BC Achievement Scholarship
@@ -114,7 +121,7 @@
     ],
     align(right)[
       2017 - 2018
-    ]
+    ],
   )
 
   #datedsubsection(
@@ -124,7 +131,7 @@
     ],
     align(right)[
       2016 - 2017
-    ]
+    ],
   )
 ]
 #let eduzh = [
@@ -137,7 +144,7 @@
     ],
     align(right)[
       2022 - _现在_
-    ]
+    ],
   )
 
   #datedsubsection(
@@ -149,7 +156,7 @@
     ],
     align(right)[
       2021 - 2022
-    ]
+    ],
   )
 
   #datedsubsection(
@@ -159,7 +166,7 @@
     ],
     align(right)[
       2018 - 2021
-    ]
+    ],
   )
 
   - Tiger Sun 纪念计算机科学奖学金
@@ -174,7 +181,7 @@
     ],
     align(right)[
       2017 - 2018
-    ]
+    ],
   )
 
   #datedsubsection(
@@ -184,7 +191,7 @@
     ],
     align(right)[
       2016 - 2017
-    ]
+    ],
   )
 ]
 
@@ -215,7 +222,7 @@
     ],
     align(right)[
       2025 - _present_
-    ]
+    ],
   )
 
   - GUI for Compass HGBO-DSE (Hierarchical GNN + Bayesian Opt) to auto-generate HLS pragmas
@@ -231,7 +238,7 @@
     ],
     align(right)[
       2025 - _present_
-    ]
+    ],
   )
 
   - ML-aided AOI (ResNet-18/50) for wafer/assembly defect detection
@@ -244,7 +251,7 @@
     ],
     align(right)[
       2025 - _present_
-    ]
+    ],
   )
 
   - Master/multi-slave BLE, SoftAP + web UI, LTE/IoT telemetry, GPS tracking, anti-theft/unlock; integrates Far-driver ESC + AntBMS; ESP-IDF + Svelte framework embedded front-end
@@ -256,7 +263,7 @@
     ],
     align(right)[
       2024 - 2025
-    ]
+    ],
   )
 
   - LoongCore: superscalar OoO CPU (LoongArch32) with branch prediction, caches, pipeline flush handling; Scala/Chisel + SBT
@@ -272,12 +279,12 @@
     ],
     align(right)[
       2024
-    ]
+    ],
   )
 
   - Implemented a CNN in PL logic; PS side bridged to PL and exposed Ethernet for data in/out between FPGA and external devices
   - Built a custom Python client over Ethernet; delivered live webcam handwritten-digit recognition pipeline;
-    // repo: #link("https://github.com/jwwang2003/DNN-Acceleration-on-FPGA")[DNN-Acceleration-on-FPGA]
+  // repo: #link("https://github.com/jwwang2003/DNN-Acceleration-on-FPGA")[DNN-Acceleration-on-FPGA]
 
   #datedsubsection(
     align(left)[
@@ -286,7 +293,7 @@
     ],
     align(right)[
       2024 - _present_
-    ]
+    ],
   )
 
   - Built and hosted multiple in-progress apps with custom domains: #link("https://github.com/jwwang2003/glorialan.com")[glorialan.com] (Next.js), #link("https://github.com/jwwang2003/glorialan.com-backend")[backend], and #link("https://github.com/jwwang2003/jimmys-cms")[jimmys-cms]
@@ -299,7 +306,7 @@
     ],
     align(right)[
       2024
-    ]
+    ],
   )
 
   - Built front to back: lexer/parser, AST, IR, optimizations, ARM assembly codegen, verification for teaching language *TeaPl*
@@ -312,7 +319,7 @@
     ],
     align(right)[
       2024
-    ]
+    ],
   )
 
   - BiTCN-based post-equalizer for 64QAM-CAP signals; references bidirectional TCN-based nonlinear compensation in underwater VLC; midterm DSP project
@@ -324,7 +331,7 @@
     ],
     align(right)[
       2023
-    ]
+    ],
   )
 
   - Built a gdb-style CLI debugger (fdb) for LoongArch32 labs using Verilator & C++; supports step/run/break/print on bin images
@@ -337,7 +344,7 @@
     ],
     align(right)[
       2025
-    ]
+    ],
   )
 
   - Drives SMIMS engine: program bitstreams, R/W registers & FIFOs; multithreaded CLI with debugging helpers; coursework artifacts in #link("https://github.com/jwwang2003/fde-project")[fde-project]
@@ -349,7 +356,7 @@
     ],
     align(right)[
       2023
-    ]
+    ],
   )
 
   - Implemented single-cycle MIPS CPU for coursework/labs
@@ -363,7 +370,7 @@
     ],
     align(right)[
       2025 - _现在_
-    ]
+    ],
   )
 
   - 面向 Compass HGBO-DSE（层次 GNN + 贝叶斯优化）自动生成 HLS Pragmas
@@ -379,7 +386,7 @@
     ],
     align(right)[
       2025 - _现在_
-    ]
+    ],
   )
 
   - 为晶圆/封装 AOI 构建 ResNet-18/50 缺陷检测模型
@@ -392,7 +399,7 @@
     ],
     align(right)[
       2023 - _现在_
-    ]
+    ],
   )
 
   - 主从 BLE + SoftAP/网页端 + LTE/IoT 遥测、GPS、防盗/解锁；对接 Far-driver（远驱控制器） ESC 与 AntBMS（蚂蚁保护板）；ESP-IDF + Svelte框架 嵌入式前端
@@ -404,7 +411,7 @@
     ],
     align(right)[
       2024 - 2025
-    ]
+    ],
   )
 
   - 主导 LoongCore：LoongArch32 超标量乱序 CPU，含分支预测、缓存、流水线冲刷等；Scala/Chisel + SBT 实现
@@ -420,7 +427,7 @@
     ],
     align(right)[
       2024
-    ]
+    ],
   )
 
   - 在 PL 侧实现 CNN；PS 侧对接 PL 并开以太网端口完成外部收发
@@ -433,7 +440,7 @@
     ],
     align(right)[
       2024
-    ]
+    ],
   )
 
   - 端到端实现词法/语法、AST、IR、优化、ARM 代码生成与验证；仓库：#link("https://github.com/jwwang2003/compiler_project")[compiler_project]
@@ -446,7 +453,7 @@
     ],
     align(right)[
       2024
-    ]
+    ],
   )
 
   - 基于时间卷积网络的后均衡技术研究；参考“Nonlinear Compensation based on Bidirectional Temporal Convolutional Network in Underwater Visible Light Communication System”；DSP 期中项目；仓库：#link("https://github.com/jwwang2003/dsp-project")[dsp-project]
@@ -458,7 +465,7 @@
     ],
     align(right)[
       2024 - _现在_
-    ]
+    ],
   )
 
   - 自建多款开发中的应用与自有域名：#link("https://github.com/jwwang2003/glorialan.com")[glorialan.com]（Next.js）、#link("https://github.com/jwwang2003/glorialan.com-backend")[后端]、#link("https://github.com/jwwang2003/jimmys-cms")[jimmys-cms]
@@ -471,7 +478,7 @@
     ],
     align(right)[
       2023
-    ]
+    ],
   )
 
   - 基于 Verilator+C++ 开发 LoongArch32/MIPS 调试器（fdb），支持步进/运行/断点/打印，加载 bin 镜像
@@ -484,7 +491,7 @@
     ],
     align(right)[
       2025
-    ]
+    ],
   )
 
   - 面向复旦《FPGA 原理与应用》课程的 FDP3P7/SMIMS 板：烧录 bitstream、读写寄存器/FIFO，多线程 CLI 与调试辅助；课程资料见 #link("https://github.com/jwwang2003/fde-project")[fde-project]
@@ -496,7 +503,7 @@
     ],
     align(right)[
       2023
-    ]
+    ],
   )
 
   - 实现单周期 MIPS CPU（课程/实验）；仓库：#link("https://github.com/jwwang2003/SingleCycleMIPSCPU")[SingleCycleMIPSCPU]
@@ -511,7 +518,7 @@
     ],
     align(right)[
       2024-09 - _present_
-    ]
+    ],
   )
 
   - In-house physics simulation engine with an OpenGL + ImGui frontend
@@ -526,7 +533,7 @@
     ],
     align(right)[
       2023-09 - _present_
-    ]
+    ],
   )
 
   - 1:1 tutoring focused on English reading, writing, and conversational fluency
@@ -539,7 +546,7 @@
     ],
     align(right)[
       2021 - 2022
-    ]
+    ],
   )
 
   - Built React/TS frontends and small apps; custom dashboards and UI refactors
@@ -553,7 +560,7 @@
     ],
     align(right)[
       2024-09 - _现在_
-    ]
+    ],
   )
 
   - 自研物理仿真引擎，配备 OpenGL + ImGui 前端
@@ -568,7 +575,7 @@
     ],
     align(right)[
       2023-09 - _现在_
-    ]
+    ],
   )
 
   - 进行英语阅读、写作与口语的一对一教学
@@ -581,7 +588,7 @@
     ],
     align(right)[
       2021 - 2022
-    ]
+    ],
   )
 
   - 交付 React/TS 前端与小型应用，包括自定义看板与界面重构
@@ -632,15 +639,6 @@
   - AI辅助的高层综合优化的图形界面工具软件（简称 Compass）V1.0；\
     登记号：2025SR2155133；证书号：软著登字第16811331号；著作权人：复旦大学；登记日期：2025年11月5日
 ]
-#let include_softwarecopyright_attachment = true
-#let softwarecopyright_attachment = (
-  "assets/copyright/AI辅助的高层综合优化的图形界面工具软件.pdf",
-);
-
-#let include_uoft_admission_attachment = true
-#let uoft_admission_attachment = (
-  "assets/images/UofT_admission.jpeg",
-)
 
 #let activitytitle = [ Activity Experience ]
 #let activitytitlezh = [ 活动经历 ]
@@ -652,7 +650,7 @@
     ],
     align(right)[
       2025-07
-    ]
+    ],
   )
 
   - Presented "HGBO-DSE: Hierarchical GNN and Bayesian Optimization based HLS Design Space Exploration" alongside faculty at the 大模型赋能FPGA教育研讨会
@@ -665,7 +663,7 @@
     ],
     align(right)[
       2019 - 2021
-    ]
+    ],
   )
 
   - Launched the school’s first programming club (Gr. 11-12); taught C++/Java; prepared peers for Waterloo CCC Junior; weekly labs filled the CS room
@@ -679,7 +677,7 @@
     ],
     align(right)[
       2025-07
-    ]
+    ],
   )
 
   - 与导师在“大模型赋能FPGA教育研讨会”展示论文《HGBO-DSE: Hierarchical GNN and Bayesian Optimization based HLS Design Space Exploration》
@@ -692,7 +690,7 @@
     ],
     align(right)[
       2019 - 2021
-    ]
+    ],
   )
 
   - 创办学校首个编程社（高一-高三）；授课 C++/Java；辅导同学参加滑铁卢 CCC Junior；每周实验课座无虚席
@@ -727,3 +725,11 @@
   - *全栈 Web 开发*: 多个 Web 应用；React/Vue/Next；Firebase/MongoDB/DigitalOcean/AWS；自建服务器与自有域名配置
   - *编程、逆向与攻防*: 乐于学习低层细节、工具开发与安全/漏洞相关主题
 ]
+
+#let softwarecopyright_attachment = (
+  "assets/copyright/AI辅助的高层综合优化的图形界面工具软件.pdf",
+);
+
+#let uoft_admission_attachment = (
+  "assets/images/UofT_admission.jpeg",
+)

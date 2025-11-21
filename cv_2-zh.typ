@@ -8,7 +8,9 @@
 
 #chiline()
 
-#selfzh
+#if include_self_intro_zh [
+  #selfzh
+]
 
 #group((
   leftsection(edutitlezh),

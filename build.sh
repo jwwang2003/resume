@@ -5,7 +5,7 @@ set -euo pipefail
 OUT_DIR="out"
 mkdir -p "$OUT_DIR"
 
-FONT_PATH="kpfonts"
+FONT_PATH="./fonts"
 
 typst compile --font-path "$FONT_PATH" cv_2.typ "$OUT_DIR/cv_2-en.pdf"
 typst compile --font-path "$FONT_PATH" cv_2-zh.typ "$OUT_DIR/cv_2-zh.pdf"

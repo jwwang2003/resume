@@ -8,7 +8,9 @@
 
 #chiline()
 
-#self
+#if include_self_intro [
+  #self
+]
 
 #group((
   leftsection(edutitle),
