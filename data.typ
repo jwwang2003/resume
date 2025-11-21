@@ -49,9 +49,9 @@
 #let include_self_intro = false
 #let include_self_intro_zh = false
 
-#let include_uoft_admission_attachment = true
-
 #let include_softwarecopyright_attachment = true
+
+#let include_uoft_admission_attachment = false
 
 #let selftitle = [ Self Introduction ]
 #let selftitlezh = [ 自我总结 ]
@@ -254,7 +254,33 @@
     ],
   )
 
+  #datedsubsection(
+    align(left)[
+      #link("https://github.com/jwwang2003/fde-cli")[*FDE-CLI*] \
+      Rust CLI tool for FDP3P7 (SMIMS) board (Fudan's in-house FPGA board for FPGA Principles & Applications course)
+    ],
+    align(right)[
+      2025
+    ],
+  )
+
+  - Drives SMIMS engine: program bitstreams, R/W registers & FIFOs; multithreaded CLI with debugging helpers; coursework artifacts in #link("https://github.com/jwwang2003/fde-project")[fde-project]
+
   - Master/multi-slave BLE, SoftAP + web UI, LTE/IoT telemetry, GPS tracking, anti-theft/unlock; integrates Far-driver ESC + AntBMS; ESP-IDF + Svelte framework embedded front-end
+
+  #datedsubsection(
+    align(left)[
+      *DNN Acceleration on FPGA* \
+      Hand-written number classification (MNIST) CNN on FPGA (PL) with Linux PS + Ethernet I/O
+    ],
+    align(right)[
+      2025
+    ],
+  )
+
+  - Implemented a CNN in PL logic; PS side bridged to PL and exposed Ethernet for data in/out between FPGA and external devices
+  - Built a custom Python client over Ethernet; delivered live webcam handwritten-digit recognition pipeline;
+  // repo: #link("https://github.com/jwwang2003/DNN-Acceleration-on-FPGA")[DNN-Acceleration-on-FPGA]
 
   #datedsubsection(
     align(left)[
@@ -271,20 +297,6 @@
     WeChat post: #link("https://mp.weixin.qq.com/s?__biz=MjM5Mjc1MjIyNg==&mid=2247484470&idx=1&sn=139e6c2f10c29f24d4eb5cae7059037d&chksm=a7b00bbab43b158b1f6ca898dece03c50b2808e4db48b0375e996cb20600edc346ab1489e4d7&mpshare=1&scene=1&srcid=1121rTQefRY9Y15Um2P7OGSX&sharer_shareinfo=a545af3ca4c8d07467ee6ae5cc023ae1&sharer_shareinfo_first=a545af3ca4c8d07467ee6ae5cc023ae1&poc_token=HAcbIGmjpPKNnVrVMm4TjEvrJt2TytGEmXV5XKxv")[WeChat]
   - Results: prelim 1st place, finals 6th overall; \~5.3x speedup on provided tests at \~100 MHz
   - Passed FuncTest/PerfTest/SysTest and boots Linux on LoongSoC
-
-  #datedsubsection(
-    align(left)[
-      *DNN Acceleration on FPGA* \
-      Hand-written number classification (MNIST) CNN on FPGA (PL) with Linux PS + Ethernet I/O
-    ],
-    align(right)[
-      2024
-    ],
-  )
-
-  - Implemented a CNN in PL logic; PS side bridged to PL and exposed Ethernet for data in/out between FPGA and external devices
-  - Built a custom Python client over Ethernet; delivered live webcam handwritten-digit recognition pipeline;
-  // repo: #link("https://github.com/jwwang2003/DNN-Acceleration-on-FPGA")[DNN-Acceleration-on-FPGA]
 
   #datedsubsection(
     align(left)[
@@ -336,18 +348,6 @@
 
   - Built a gdb-style CLI debugger (fdb) for LoongArch32 labs using Verilator & C++; supports step/run/break/print on bin images
   - Make/IMG-driven flow for swapping binaries
-
-  #datedsubsection(
-    align(left)[
-      #link("https://github.com/jwwang2003/fde-cli")[*FDE-CLI*] \
-      Rust CLI tool for FDP3P7 (SMIMS) board (Fudan's in-house FPGA board for FPGA Principles & Applications course)
-    ],
-    align(right)[
-      2025
-    ],
-  )
-
-  - Drives SMIMS engine: program bitstreams, R/W registers & FIFOs; multithreaded CLI with debugging helpers; coursework artifacts in #link("https://github.com/jwwang2003/fde-project")[fde-project]
 
   #datedsubsection(
     align(left)[
@@ -426,7 +426,7 @@
       手写数字识别 CNN（PL），PS/Ethernet 数据收发
     ],
     align(right)[
-      2024
+      2025
     ],
   )
 
