@@ -289,7 +289,7 @@
     ]
   )
 
-  - Built and hosted multiple apps with custom domains: #link("https://github.com/jwwang2003/glorialan.com")[glorialan.com] (Next.js), #link("https://github.com/jwwang2003/glorialan.com-backend")[backend], and #link("https://github.com/jwwang2003/jimmys-cms")[jimmys-cms]
+  - Built and hosted multiple in-progress apps with custom domains: #link("https://github.com/jwwang2003/glorialan.com")[glorialan.com] (Next.js), #link("https://github.com/jwwang2003/glorialan.com-backend")[backend], and #link("https://github.com/jwwang2003/jimmys-cms")[jimmys-cms]
   - DigitalOcean hosting with managed MySQL; domains via GoDaddy; Cloudflare DNS/CDN; static assets on Amazon S3
 
   #datedsubsection(
@@ -461,7 +461,7 @@
     ]
   )
 
-  - 自建多款应用与自有域名：#link("https://github.com/jwwang2003/glorialan.com")[glorialan.com]（Next.js）、#link("https://github.com/jwwang2003/glorialan.com-backend")[后端]、#link("https://github.com/jwwang2003/jimmys-cms")[jimmys-cms]
+  - 自建多款开发中的应用与自有域名：#link("https://github.com/jwwang2003/glorialan.com")[glorialan.com]（Next.js）、#link("https://github.com/jwwang2003/glorialan.com-backend")[后端]、#link("https://github.com/jwwang2003/jimmys-cms")[jimmys-cms]
   - 部署在 DigitalOcean，MySQL 托管；域名 GoDaddy；Cloudflare DNS/CDN；静态资源存储于 Amazon S3
 
   #datedsubsection(
