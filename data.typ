@@ -109,7 +109,7 @@
 
   #datedsubsection(
     align(left)[
-      *Nisga'a Elementary Secondary School*, New Aiyansh, Canada \
+      *Nisga\'a Secondary School*, New Aiyansh, Canada \
       Grade 9
     ],
     align(right)[
@@ -169,7 +169,7 @@
 
   #datedsubsection(
     align(left)[
-      *Nisga'a Elementary Secondary School* \
+      *Nisga\'a Secondary School* \
       初三
     ],
     align(right)[
